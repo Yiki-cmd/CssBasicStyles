@@ -1,0 +1,38 @@
+ 
+ overriding[ change ]
+
+  [ a ]  [ b ]
+
+  b has overriden a 
+ div{ 
+
+ }
+ .box-1{
+
+ }
+
+ style of box-1 overrids that of div
+
+ # my-box{
+
+ }  
+
+ style of my-box overrides that of box-1 and box 1 overrides that of div
+
+ html element has three identifiers / selectors
+heirarchy of  selector uniqueness
+id > class > tag
+ 1. tag name # you being human
+  e.g 
+   <div><div> div is the tag name
+    <p></p> p is the tag name
+    <h1></h1> h1 is the tag name
+
+    ...
+2. class name  # you belonging to some cluster or group
+  e.g 
+     <div class="box-1"></div> box-1 is the class name
+     <p class="para-1"></P> para-1 is the class name
+    <h1 class="heading-1"></h1> heading -1 iss the class name
+3. id name # you being unique
+ 
