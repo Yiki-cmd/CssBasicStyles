@@ -8,6 +8,7 @@
     border:5px solid black;
     border-radius:5px;
     background-color:rgb(255, 0, 212);
+    hover
     mini-width: 100px;
     mini-height: 100px;
     paddding: 20px; 
@@ -39,6 +40,10 @@
 
 
 }
+.box-model-hover{
+   transform: scale(1,1);
+   transition: 0,5s;
+}
 
 #box-model-1{
    /*display: inline-block;*/
@@ -49,6 +54,12 @@
    /* background-size: cover;
    box-shadow: 10px 10px 10px rgb(98, 69, 171) */
    
+}
+#box-model-1:hover{
+   background-color:black;
+   box-shadow: 10px 10px 20px blueviolet;
+}
+
 }
 #box-model-2 > h1 { 
    /*display: inline-block;*/
@@ -70,5 +81,53 @@
    text-transform: capitalize;
    
    text-shadow: 20px 20px 20px black;
+
+}
+box-model-2-hover{
+   background-color: braun;
+   transition: 0,5s;
+
+}
+ul, ol {
+   list-style-type: none;
+   padding:0px;
+   margin:0px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color:rgb(112, 42, 165);
+   border-radius: 10px;
+   background-color: aqua;
+   margin:5px;
+   box-shadow:10px 10px 10px green;
+
+   /* list-style-type: none;
+   list-style-type: circle; */
+
+}
+/*ol{
+   list-style-type:none;
+   /*list-style-type: alphabet;*/
+
+*/
+ul > li, ol  > li{
+   padding:10px;
+   /*border: 10px;*/
+
+   border-bottom: 10px solid blue;
+}
+
+ul > li:last-child, ol>li:last-child{
+   padding: 15px;
+   border-bottom:none;
+/*ul > li:nth-child, ol>li:nth-child{
+   border-bottom:none;
+ul > li:nth-child(2), ol>li:nth-child(2){
+   border-bottom:none;
+   ul > li:first-child, ol>li:first-child{
+   border-bottom:none;
+*/   }
+ul >li:odd, ol>li:first-child{
+   border-bottom:none;
+   /* ul >li:nth-child(even), ol>li:odd */
+
 
 }
